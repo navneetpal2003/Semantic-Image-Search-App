@@ -1,0 +1,12 @@
+torch
+transformers
+sentence-transformers
+chromadb
+keybert
+easyocr
+opencv-python
+pillow
+langchain
+langchain-community
+langchain-core
+tqdm
