@@ -1,9 +1,13 @@
 fastapi
 uvicorn
-sentence-transformers
-faiss-cpu
 numpy
 pillow
 requests
 python-dotenv
 python-multipart
+
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+torch==2.0.1
+scikit-learn
+transformers
