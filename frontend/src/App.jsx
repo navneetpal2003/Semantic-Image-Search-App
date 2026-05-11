@@ -103,7 +103,9 @@ function App() {
       </header>
 
       <div className="search-section">
-        <SearchBar query={query} onQueryChange={handleQueryChange} onUpload={handleUpload} isSearching={isSearching} />
+        <div className="search-bar-inner">
+          <SearchBar query={query} onQueryChange={handleQueryChange} onUpload={handleUpload} isSearching={isSearching} />
+        </div>
       </div>
 
       {isUploading && (
