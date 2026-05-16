@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://semantic-image-search-app-2.onrender.com";
 
 /**
  * ImageModal — full-screen overlay modal with split layout:

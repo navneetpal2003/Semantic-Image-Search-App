@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://semantic-image-search-app-2.onrender.com";
 
 /**
  * ImageCard — renders a single image thumbnail in the gallery grid.
